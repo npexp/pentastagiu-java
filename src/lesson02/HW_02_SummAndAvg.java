@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class HW_02_SummAndAvg{
 
-    public static int calculateSumm(int nr1, int nr2){
+    public static int calculateSum(int nr1, int nr2){
 
         int summ = 0;
 
@@ -34,8 +34,8 @@ public class HW_02_SummAndAvg{
         int nr2 = in.nextInt();
         in.close();
 
-        System.out.println("\nSumm result: "+ calculateSumm(nr1,nr2));
-        System.out.println("Average result: "+calculateAverage(nr1,nr2));
+        System.out.println("\nSum for range "+nr1+" to "+nr2+" : "+ calculateSum(nr1,nr2));
+        System.out.println("Average for range "+nr1+" to "+nr2+" : "+calculateAverage(nr1,nr2));
 
     }
 }
